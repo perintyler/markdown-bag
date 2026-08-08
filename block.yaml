@@ -1,0 +1,10 @@
+name: markdown
+description: Markdown tools — PDF generation, format conversion, and themes
+
+tools:
+  entry: tools.ts
+
+tool-metadata:
+  - { toolName: generate_pdf, namespace: md_to_pdf, access: write }
+  - { toolName: list_themes, namespace: md_to_pdf, access: read }
+  - { toolName: status, namespace: md_to_pdf, access: read }
