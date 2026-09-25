@@ -1,4 +1,4 @@
-import { defineTool } from "@barry-rocks/sdk-bags";
+import { defineTool } from "@barry-rocks/sdk/bags";
 import { z } from "zod";
 import { mdToPdf } from "md-to-pdf";
 import { readFile, writeFile } from "fs/promises";
